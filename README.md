@@ -1,6 +1,6 @@
 ## Prereqs
 
-Install [Node.js] (v6.5 or later) (https://nodejs.org/en/). This will also install `npm` as a global command.
+Install [Node.js](https://nodejs.org/en/). (v6.5 or later) This will also install `npm` as a global command.
 
 ## Installing
 

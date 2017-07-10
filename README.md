@@ -1,3 +1,37 @@
+## Overview
+
+This project is a solution to a programming challenge presented by Jibo.
+
+It implements Floyd’s Cycle-Finding Algorithm:
+
+http://www.geeksforgeeks.org/write-a-c-function-to-detect-loop-in-a-linked-list/
+
+The algorithm operates in constant memory space and is very useful for finding poorly formed singly linked lists.
+
+Because the nodes that represent the lists in the challenge are accessible in ways other than starting at the LISTHEAD, and then along next-pointers, other solutions may exist. For instance, it is possible to start at border-edges that point off of the board and walk backwards, as though it were a doubly-linked list, doing a depth first traversal, and find all valid starting nodes, and either coloring or storing them. While efficient in time, that is not constant in memory space as required.
+
+For a thorough discussion of good and bad solutions to loop-finding in singly linkde lists, see:
+
+https://blog.ostermiller.org/find-loop-singly-linked-list
+
+#### External libraries and resources
+
+The sprite-sheet was generated with TexturePacker:
+
+https://www.codeandweb.com/texturepacker
+
+PIXI supports the sprite sheets generated with this tool.
+
+Sound support comes from pixi-sound:
+
+https://www.npmjs.com/package/pixi-sound
+
+Sound resources come from MovieWavs:
+
+http://www.moviewavs.com/
+
+Usage of these sounds can not be for commercial purposes, as the original rights owners retain copyright. See the website for details.
+
 ## Prereqs
 
 Install [Node.js](https://nodejs.org/en/). (v6.5 or later) This will also install `npm` as a global command.

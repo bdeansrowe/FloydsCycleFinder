@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "electron-prebuilt": "^1.4.1",
+    "pixi-sound": "^1.4.2",
     "pixi.js": "^4.3.3"
   }
 }

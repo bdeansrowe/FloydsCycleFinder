@@ -10,7 +10,7 @@ The algorithm operates in constant memory space and is very useful for finding p
 
 Because the nodes that represent the lists in the challenge are accessible in ways other than starting at the LISTHEAD, and then along next-pointers, other solutions may exist. For instance, it is possible to start at border-edges that point off of the board and walk backwards, as though it were a doubly-linked list, doing a depth first traversal, and find all valid starting nodes, and either coloring or storing them. While efficient in time, that is not constant in memory space as required.
 
-For a thorough discussion of good and bad solutions to loop-finding in singly linkde lists, see:
+For a thorough discussion of good and bad solutions to loop-finding in singly linked lists, see:
 
 https://blog.ostermiller.org/find-loop-singly-linked-list
 
